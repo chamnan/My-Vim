@@ -23,7 +23,7 @@ syntax on
 set autowrite
 
 "Display current cursor position in lower right corner.
-set 
+set ruler
 
 "Want a different map leader than \
 let mapleader = ","

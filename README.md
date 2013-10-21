@@ -26,3 +26,5 @@ mv 10-powerline-symbols.conf ~/.config/fontconfig/conf.d/
 	3. Run `fc-cache -vf ~/.fonts` to update your font cache
 
 	For more info about Powerline [Font patching](https://powerline.readthedocs.org/en/latest/fontpatching.html)
+
+![VIM](https://raw.github.com/chamnan/My-Vim/master/screenshot/VIM.png)

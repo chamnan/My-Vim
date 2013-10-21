@@ -117,6 +117,7 @@ nmap ev :tabedit $MYVIMRC<cr>
 let g:user_zen_expandabbr_key = '<C-e>'
 
 "Faster shortcut for commenting. Requires T-Comment plugin
+"From https://github.com/tomtom/tcomment_vim
 map c <c-_><c-_>
 
 "Saves time; maps the spacebar to colon

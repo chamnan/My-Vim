@@ -1,10 +1,11 @@
+
 " .vimrc File
 " Maintained by: Chamnan Nop
 " Email: chamnan.nop@gmail.com
 
 set encoding=utf-8
 set t_Co=256
-set background=dark
+"set background=dark
 syntax enable
 
 let g:airline_powerline_fonts = 1
@@ -174,7 +175,7 @@ nmap <C-l> <C-w>l
 "NERDTREE PLUGIN SETTINGS
 "------------------------"
 "Shortcut for NERDTreeToggle
-nmap nt :NERDTreeToggle
+nmap <silent>nt :NERDTreeToggle<CR>
 
 "Show hidden files in NerdTree
 let NERDTreeShowHidden=1
@@ -194,3 +195,6 @@ iab Teh The
 "--------------------------"
 " PERSONAL SETTINGS 
 " -------------------------"
+
+"Clear search Highlight
+nnoremap <silent><Leader><space> :noh<CR>
